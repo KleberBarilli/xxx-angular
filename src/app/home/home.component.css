@@ -1,0 +1,36 @@
+.hero {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.tableau.com/sites/default/files/800x447_web_summerofsports_soccer_967604.jpg');
+  background-size: cover, cover, cover;
+  background-position: center, center, center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.btn {
+  background-color: #1da1f2;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
